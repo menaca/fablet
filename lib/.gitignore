@@ -1,0 +1,51 @@
+# Flutter/Dart projesi için .gitignore
+
+# Dart/Flutter ile ilgili yapı dosyaları
+.dart_tool/
+.packages
+.pub/
+build/
+
+# IDE dosyaları (IntelliJ, VS Code, vb.)
+.idea/
+.vscode/
+
+# macOS'un oluşturduğu geçici dosyalar
+.DS_Store
+
+# .env dosyasını dışla (API anahtarları ve diğer hassas bilgiler burada bulunur)
+.env
+
+# Android ile ilgili dosyalar
+.android/
+*.apk
+*.ap_
+
+# iOS ile ilgili dosyalar
+ios/Flutter/.generated/
+*.xcuserstate
+
+# Test, logs ve hata raporlama dosyaları
+test_output/
+*.log
+
+# Herhangi bir geçici dosya veya oluşturulan önbellek dosyaları
+*.bak
+*.tmp
+
+# Dart dosyası ile ilgili geçici dosyalar
+*.dart.js
+*.js.deps
+*.js.map
+
+# IDE tarafından oluşturulan geçici dosyalar
+*.swp
+*.swo
+*.swn
+
+# Flutter build çıktıları
+# build/
+
+# Flutter artifact dosyaları
+flutter_export_environment.sh
+flutter.yaml
